@@ -1,0 +1,12 @@
+
+{ 
+    crc :  16598311821398195358  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 5e51582c9beb4044a452f4fbf84e700c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg" , 
+    buildDate : "May 27 2020" , 
+    buildTime : "20:09:33" , 
+    linkCmd : "C:\\APPZ\\Xilinx\\Vivado\\2020.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_hex_7seg_behav/xsimk.exe\"   \"xsim.dir/tb_hex_7seg_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_hex_7seg_behav/obj/xsim_1.win64.obj\" -L\"C:\\APPZ\\Xilinx\\Vivado\\2020.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

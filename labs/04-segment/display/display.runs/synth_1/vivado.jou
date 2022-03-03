@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar  3 12:24:11 2022
+# Process ID: 4976
+# Current directory: D:/Documents/xkaspa46/digital-electronics-1/labs/04-segment/display/display.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Documents/xkaspa46/digital-electronics-1/labs/04-segment/display/display.runs/synth_1/top.vds
+# Journal file: D:/Documents/xkaspa46/digital-electronics-1/labs/04-segment/display/display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
