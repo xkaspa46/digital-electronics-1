@@ -1,4 +1,6 @@
    ### D flip flop
+ 
+   
    |               **clk**                      | **d** | **q(n)** | **q(n+1)** | **Comments** |
    |                   :-:                      | :-:   | :-:      | :-:        | :--          |
    | ![rising](images/eq_uparrow.png)           | 0     | 0        |     0      |    RESET     |
@@ -7,6 +9,8 @@
    | ![rising](images/eq_uparrow.png)           | 1     | 1        |     1      |     SET      |
 
    ### J-K flip flop
+   
+   Characteristik equation: Q(t+1) = K'(t)Q(t) + J(t)Q'(t)
    |              **clk**             | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    |                :-:               | :-:   |  :-:  |    :-:   |     :-:    |      :--     |
    | ![rising](images/eq_uparrow.png) | 0     | 0     | 0        | 0          | No change    |
