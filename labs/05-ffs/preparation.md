@@ -1,6 +1,6 @@
    ### D flip flop
  
-   Characteristic equation: Q(n+1) = D(n)
+   Characteristic equation: **Q(n+1) = D(n)**
    |               **clk**                      | **d** | **q(n)** | **q(n+1)** | **Comments** |
    |                   :-:                      | :-:   | :-:      | :-:        | :--          |
    | ![rising](images/eq_uparrow.png)           | 0     | 0        |     0      |    RESET     |
@@ -10,7 +10,7 @@
 
    ### J-K flip flop
    
-   Characteristic equation: Q(n+1) = K'(n)Q(n) + J(n)Q'(n)
+   Characteristic equation: **Q(n+1) = K'(n)Q(n) + J(n)Q'(n)**
    |              **clk**             | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    |                :-:               | :-:   |  :-:  |    :-:   |     :-:    |      :--     |
    | ![rising](images/eq_uparrow.png) | 0     | 0     | 0        | 0          | No change    |
@@ -24,7 +24,7 @@
 
    ### T flip flop
    
-   Characteristic equation: Q(n+1) = T'(n)Q(n) + T(n)Q'(n)
+   Characteristic equation: **Q(n+1) = T'(n)Q(n) + T(n)Q'(n)**
    |              **clk**             | **t** | **q(n)** | **q(n+1)** | **Comments** |
    |                :-:               | :-:   | :-:      | :-:        | :--          |
    | ![rising](images/eq_uparrow.png) | 0     | 0        | 0          |  Hold state  |
