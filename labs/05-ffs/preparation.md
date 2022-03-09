@@ -1,6 +1,6 @@
    ### D flip flop
-                                      | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
-                                      | :-:     | :-:   | :-:      | :-:        | :--          |
+   | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-:     | :-:   | :-:      | :-:        | :--          |
    |           ![rising](images/eq_uparrow.png) | 0     | 0        |     0      |    RESET     |
    | ![rising](images/eq_uparrow.png)           | 0     | 1        |     0      |    RESET     |
    | ![rising](images/eq_uparrow.png)           | 1     | 0        |     1      |     SET      |
