@@ -1,0 +1,6 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_cnt_up_down/p_stimulus  File: D:/Documents/xkaspa46/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd
+Note: Stimulus process finished
+Time: 600 ns  Iteration: 0  Process: /tb_cnt_up_down/p_stimulus  File: D:/Documents/xkaspa46/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd

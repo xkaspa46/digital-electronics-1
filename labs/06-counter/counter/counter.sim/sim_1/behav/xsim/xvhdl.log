@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xkaspa46/digital-electronics-1/labs/06-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xkaspa46/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_cnt_up_down'

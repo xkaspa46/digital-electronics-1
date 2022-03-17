@@ -1,0 +1,12 @@
+
+{ 
+    crc :  244470812922410719  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 722795b85b1540ef9f1dcb3d0c1043c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_clock_enable_behav xil_defaultlib.tb_clock_enable" , 
+    buildDate : "May 27 2020" , 
+    buildTime : "20:09:33" , 
+    linkCmd : "C:\\APPZ\\Xilinx\\Vivado\\2020.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_clock_enable_behav/xsimk.exe\"   \"xsim.dir/tb_clock_enable_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_clock_enable_behav/obj/xsim_1.win64.obj\" -L\"C:\\APPZ\\Xilinx\\Vivado\\2020.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
