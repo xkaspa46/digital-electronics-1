@@ -1,7 +1,5 @@
 
-![https://lastminuteengineers.com/seven-segment-arduino-tutorial/](../04-segment/images/7-Segment-Display-Number-Formation-Segment-Contol.png)
-
-  ![Timing of seven-segment display](images/wavedrom_7-segment.png)
+  ![Timing of seven-segment display](images/wavedrom7.png)
 
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
