@@ -1,5 +1,5 @@
 
-  ![Timing of seven-segment display](images/wavedrom7.png)
+  ![Timing of seven-segment display](pictures/wavedrom7.png)
 
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
