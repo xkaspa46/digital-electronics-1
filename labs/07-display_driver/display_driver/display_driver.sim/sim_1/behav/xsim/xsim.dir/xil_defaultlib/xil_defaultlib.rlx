@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd,1648121248,vhdl,,,,tb_driver_7seg_4digits,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd,1647512473,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd,,,clock_enable,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd,1647515396,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd,,,cnt_up_down,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd,1648121081,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd,,,driver_7seg_4digits,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd,1646304659,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd,,,hex_7seg,,,,,,,,
