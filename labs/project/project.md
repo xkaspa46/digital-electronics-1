@@ -32,9 +32,8 @@ Bývá realizován integrovaným obvodem (8250 UART/16550 UART) nebo taky jako s
 
 X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startovacím bitem. V našem případě 8 bitů sériové informace + jeden start/stop bit (**8N1**).
 
-
 <a name="modules"></a>
-![your figure](pictures/SchematicUART.png.jpg)
+![your figure](pictures/SchematicUART.png)
 
 ## VHDL modules description and simulations
 
