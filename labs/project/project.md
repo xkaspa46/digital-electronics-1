@@ -21,7 +21,9 @@
 
 Transmitter
 * Generování 8-bitové informace s start bitem pomocí CLK_EN (8N1)
+
 Reciever
+* Seřazení vstupní informace od bitu s nejnižší váhou po nejvyšší v pořadí jakém přišly
 
 <a name="hardware"></a>
 
