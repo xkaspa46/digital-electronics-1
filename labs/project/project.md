@@ -25,10 +25,10 @@ Write your text here.
 
 ## Hardware description
 
-Write your text here.
+# UART - Universal Asynchronous Reciever-Transmitter
 
 <a name="modules"></a>
-![your figure](images/SchematicUART.png.jpg)
+![your figure](pictures/SchematicUART.png.jpg)
 
 ## VHDL modules description and simulations
 
