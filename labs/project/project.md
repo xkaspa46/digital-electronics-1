@@ -2,9 +2,9 @@
 
 ### Team members
 
-* Tomas Kristek (responsible for xxx)
-* Tomas Kaspar (responsible for xxx)
-* Dusan Kratochvil (responsible for xxx)
+* Tomáš Kristek (responsible for xxx)
+* Tomáš Kašpar (responsible for xxx)
+* Dušan Kratochvíl (responsible for xxx)
 
 ### Table of contents
 
