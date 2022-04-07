@@ -39,8 +39,10 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 <a name="modules"></a>
 ![your figure](pictures/SchematicUART.png)
 
+
 8-bitový rámec 8N1
 ![your figure](pictures/FrameData.jpg)
+
 
 ## VHDL modules description and simulations
 
