@@ -43,7 +43,7 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 8-bitový rámec 8N1 (8 Datových bitů, Bez parity, 1 Stop, 0.1ms na bit)
 
 
-![your figure](pictures/FrameData.jpg)
+![your figure](pictures/DatovyRamec.jpg)
 
 
 ## VHDL modules description and simulations
