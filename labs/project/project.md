@@ -64,4 +64,7 @@ Write your text here
 
 ## References
 
-1. Wikipedie https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+1. Wikipedie 
+https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+2. University of Wisconsin-Madison 
+https://ece353.engr.wisc.edu/serial-interfaces/uart-basics/
