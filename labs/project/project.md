@@ -1,4 +1,4 @@
-# YOUR_PROJECT_TITLE
+# UART interface, ie UART transmitter and receiver
 
 ### Team members
 
