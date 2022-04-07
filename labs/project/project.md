@@ -28,6 +28,7 @@ Write your text here.
 Write your text here.
 
 <a name="modules"></a>
+![your figure](images/SchematicUART.png.jpg)
 
 ## VHDL modules description and simulations
 
