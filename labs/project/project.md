@@ -1,11 +1,10 @@
-# UART interface, ie UART transmitter and receiver
+# UART Interface
 
 ### Team members
 
-* Member 1 (responsible for xxx)
-* Member 2 (responsible for xxx)
-* Member 3 (responsible for xxx)
-* ...
+* Tomas Kristek (responsible for xxx)
+* Tomas Kaspar (responsible for xxx)
+* Dusan Kratochvil (responsible for xxx)
 
 ### Table of contents
 
