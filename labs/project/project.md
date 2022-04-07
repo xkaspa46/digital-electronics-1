@@ -49,4 +49,4 @@ Write your text here
 
 ## References
 
-1. Write your text here.
+1. Wikipedie https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
