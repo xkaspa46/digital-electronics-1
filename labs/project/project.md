@@ -19,7 +19,9 @@
 
 ## Project objectives
 
-Write your text here.
+Transmitter
+* Generování 8-bitové informace s start bitem pomocí CLK_EN (8N1)
+Reciever
 
 <a name="hardware"></a>
 
