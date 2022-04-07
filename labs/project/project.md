@@ -25,7 +25,10 @@ Write your text here.
 
 ## Hardware description
 
-# UART - Universal Asynchronous Reciever-Transmitter
+### UART - Universal Asynchronous Reciever-Transmitter
+Počítačová sběrnice pro asynchronní sériový přenos dat. Rychlost přenosu je konfigurovatelná - v našem případě 9600 Bd (9.6kb/s).
+Bývá realizován integrovaným obvodem (8250 UART/16550 UART) nebo taky jako součást jednočipového počítače a slouží jako sériový port (na desce Nexys A7-50T jako MicroUSB-B pro naprogramování vnitřního FPGA čipu).
+
 
 <a name="modules"></a>
 ![your figure](pictures/SchematicUART.png.jpg)
