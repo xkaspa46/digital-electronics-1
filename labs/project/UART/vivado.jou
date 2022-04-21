@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 20 20:47:03 2022
+# Process ID: 9368
+# Current directory: C:/Users/tomas/Downloads/Tomas-Kaspar-main/Tomas-Kaspar-main/labs/project/UART
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22024 C:\Users\tomas\Downloads\Tomas-Kaspar-main\Tomas-Kaspar-main\labs\project\UART\UART.xpr
+# Log file: C:/Users/tomas/Downloads/Tomas-Kaspar-main/Tomas-Kaspar-main/labs/project/UART/vivado.log
+# Journal file: C:/Users/tomas/Downloads/Tomas-Kaspar-main/Tomas-Kaspar-main/labs/project/UART\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tomas/Downloads/Tomas-Kaspar-main/Tomas-Kaspar-main/labs/project/UART/UART.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top UART_Tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top UART_Tx [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source UART_Tb.tcl
+run 10000000 ns
+close_sim
+launch_simulation
+source UART_Tb.tcl
+set_property -name {xsim.simulate.runtime} -value {10000000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source UART_Tb.tcl
+set_property -name {xsim.simulate.runtime} -value {20ms} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+launch_simulation
+source UART_Tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral

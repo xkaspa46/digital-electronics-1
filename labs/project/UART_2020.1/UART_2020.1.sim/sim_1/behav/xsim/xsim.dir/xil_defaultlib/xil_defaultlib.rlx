@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sim_1/new/UART_Tb.vhd,1650537544,vhdl,,,,uart_tb,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/UART_Rx.vhd,1650537575,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sim_1/new/UART_Tb.vhd,,,uart_rx,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/UART_Tx.vhd,1650534104,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sim_1/new/UART_Tb.vhd,,,uart_tx,,,,,,,,
+D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/clock_enable.vhd,1649933006,vhdl,D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/UART_Rx.vhd;D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/UART_Tx.vhd,,,clock_enable,,,,,,,,
