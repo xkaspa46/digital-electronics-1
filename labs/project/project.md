@@ -3,7 +3,7 @@
 ### Team members
 
 * Tomáš Kristek (responsible for programming)
-* Tomáš Kašpar (responsible for editing)
+* Tomáš Kašpar (responsible for documentation and editing)
 * Dušan Kratochvíl (responsible for catering)
 
 ### Table of contents
