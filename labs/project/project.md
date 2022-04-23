@@ -21,6 +21,7 @@
 
 Transmitter
 * Generování 8-bitové informace s start bitem pomocí CLK_EN (8N1)
+* 
 ** msioe
 
 Reciever
