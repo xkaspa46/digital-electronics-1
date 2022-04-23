@@ -4,7 +4,7 @@
 
 * Tomáš Kristek (responsible for programming)
 * Tomáš Kašpar (responsible for documentation and editing)
-* Dušan Kratochvíl (responsible for catering)
+* Dušan Kratochvíl (responsible for xxx)
 
 ### Table of contents
 
