@@ -21,11 +21,16 @@
 
 Transmitter
 * Generování 8-bitové informace s start bitem pomocí CLK_EN (8N1)
-* ss
+* Simulace v testbench
+* Implementace na desku - výstup jako pin OUT z pravé strany desky
+* Záznam průběhu na osciloskopu
 
 
 Reciever
 * Seřazení vstupní informace od bitu s nejnižší váhou po nejvyšší v pořadí jakém přišly
+* Simulace v testbench
+* Generování 8 bitů sériového signálu externě a připojení na pin IN z pravé strany desky
+* Zobrazení na 7 seg displeji
 
 <a name="hardware"></a>
 
