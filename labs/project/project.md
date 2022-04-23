@@ -19,14 +19,14 @@
 
 ## Project objectives
 
-Transmitter
+**Transmitter**
 * Generování 8-bitové informace s start bitem pomocí CLK_EN (8N1)
 * Simulace v testbench
 * Implementace na desku - výstup jako pin OUT z pravé strany desky
 * Záznam průběhu na osciloskopu
 
 
-Reciever
+**Reciever**
 * Seřazení vstupní informace od bitu s nejnižší váhou po nejvyšší v pořadí jakém přišly
 * Simulace v testbench
 * Generování 8 bitů sériového signálu externě a připojení na pin IN z pravé strany desky
