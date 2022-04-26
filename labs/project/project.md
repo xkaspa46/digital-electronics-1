@@ -90,7 +90,14 @@ begin
             reset => '0',
             ce_o  => s_en
         );
-     
+```
+
+Pro transmitter jsme použili námi vytvořený funkční blok **clock enable** z předchozích cvičení. Počet period jsme stanovili na **Tclk = 5209**. V úvodu jsme dále definovali parametry signálu:
+* Signál CLK, který bude vybírat data na náběžnou hranu
+* Start a stop bit
+* Samotná data v rámci 8N1
+
+```vhdl
     p_UART_Tx: process(clk_i)
     begin
         if rising_edge(clk_i) and s_en = '1' then         
