@@ -31,8 +31,12 @@
 **Reciever**
 * Seřazení vstupní informace od bitu s nejnižší váhou po nejvyšší v pořadí jakém přišly
 * Simulace v testbench
-* Generování 8 bitů sériového signálu externě a připojení na pin IN z pravé strany desky
+* Generování 8 bitů sériového signálu externě a připojení na pin IN z pravé strany desky)
 * Zobrazení na 7 seg displeji
+
+**Top modul**
+* Propojení TX a RX, jakožto dvou desek
+* Finální funkce s implementací
 
 <a name="hardware"></a>
 
