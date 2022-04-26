@@ -4,7 +4,7 @@
 
 * Tomáš Kristek (responsible for programming)
 * Tomáš Kašpar (responsible for documentation and editing)
-* Dušan Kratochvíl (responsible for xxx)
+* Dušan Kratochvíl (responsible for Capri-Sun)
 
 ### Table of contents
 
