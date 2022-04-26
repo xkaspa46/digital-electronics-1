@@ -59,6 +59,7 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 
 <a name="transmitter"></a>
 **Transmitter**
+
 *Popis kódu*
 ```vhdl
 ------------------------------------------------------------
