@@ -181,7 +181,7 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
 **Simulace**
 
-![your figure](pictures/UART_Tx_waveform.png)
+![your figure](pictures/UART_Tx_Waveform.png)
 
 <a name="reciever"></a>
 ## Reciever
