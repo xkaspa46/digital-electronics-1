@@ -182,7 +182,12 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 **Simulace**
 
 ![your figure](pictures/UART_Tx_Waveform_start.png)
+
+Výstup s přepínaným Tx_start_i
+
 ![your figure](pictures/UART_Tx_Waveform_zoom.png)
+
+Zoom na průběh jednoho rámce
 
 <a name="reciever"></a>
 ## Reciever
