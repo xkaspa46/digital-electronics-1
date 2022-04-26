@@ -55,10 +55,10 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 ![your figure](pictures/DatovyRamec.jpg)
 
 
-## VHDL modules description and simulations
+# VHDL modules description and simulations
 
 <a name="transmitter"></a>
-# Transmitter
+## Transmitter
 
 **Popis kódu**
 
