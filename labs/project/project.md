@@ -58,9 +58,10 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 ## VHDL modules description and simulations
 
 <a name="transmitter"></a>
-**Transmitter**
+# Transmitter
 
-*Popis kódu*
+**Popis kódu**
+
 ```vhdl
 ------------------------------------------------------------
 -- Architecture body for UART Transmitter
