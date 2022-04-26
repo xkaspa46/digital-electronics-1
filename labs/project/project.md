@@ -59,6 +59,10 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 ![your figure](pictures/DatovyRamec.jpg)
 
 
+![your figure](pictures/RS232_propojení.png)
+
+*Příklad sériové komunikace UART - propojení **RS232***
+
 # VHDL modules description and simulations
 
 <a name="transmitter"></a>
@@ -218,3 +222,5 @@ Write your text here
 https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
 2. University of Wisconsin-Madison 
 https://ece353.engr.wisc.edu/serial-interfaces/uart-basics/
+3. RS232 obrázek - ok1ufc
+http://ok1ufc.nagano.cz/Desktopy/RS232/RS232.htm
