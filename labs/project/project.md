@@ -175,6 +175,10 @@ Při detekování náběžné hrany se vždy nejprve zjistí, zda uživatel zah�
 
 Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílání do 0, tak se informace neztratí a přenos skončí po jejím úplném odeslání. Další cyklus tedy nezapočne.
 
+**Simulace**
+
+![your figure](pictures/UARTTx_waveform.png)
+
 <a name="reciever"></a>
 ## Reciever
 
