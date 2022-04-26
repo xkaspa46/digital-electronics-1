@@ -171,8 +171,14 @@ Pro transmitter jsme použili námi vytvořený funkční blok **clock enable** 
 end Behavioral;
 ```
 
+Při detekování náběžné hrany se vždy nejprve zjistí, zda uživatel zahájil přenos dat pomocí **Tx_start_i**. Jakmile pak zahájí přenos dat, nejprve se pošle start bit, 8-bit informaci a nakonec stop bit. Tato sekvence se opakuje, dokud přenos neukončí.
+
+Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílání do 0, tak se informace neztratí a přenos skončí po jejím úplném odeslání. Další cyklus tedy nezapočne.
+
 <a name="reciever"></a>
-**Reciever**
+## Reciever
+
+**Popis kódu**
 
 <a name="top"></a>
 
