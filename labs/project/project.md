@@ -515,6 +515,8 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
    | `JA1`      | out   |`std_logic`                     | Výstupní port pro připojení média (vodič)                                 |
    | `LED17_R`  | out   |`std_logic`                     | LED pro hlídání aktivního přenosu dat - ČERVENÁ                           |
    | `LED16_B`  | out   |`std_logic`                     | LED oznamující odeslání kompletního rámce - MODRÁ (blikání s periodou 1ms)|
+   
+**Schematic**
 
 **Reciever - constraints**
 
@@ -526,6 +528,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
    | `LED`      | out   |`std_logic_vector (7 downto 0)` | LED pro zobrazení dešifrovaných dat                                      |
    | `LED17_R`  | out   |`std_logic`                     | LED pro hlídání aktivního přenosu dat - ČERVENÁ                          |
 
+**Schematic**
 
 <a name="video"></a>
 
