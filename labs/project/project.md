@@ -232,10 +232,6 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
 **Popis kódu**
 
-## Test bench
-
-**Popis kódu**
-
 ```vhdl
 ------------------------------------------------------------
 -- Architecture body for UART Reciever
@@ -366,6 +362,10 @@ begin
 
 end Behavioral;
 ```
+
+## Test bench
+
+**Popis kódu**
 
 
 <a name="top"></a>
