@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 28 17:15:22 2022
+# Process ID: 26168
+# Current directory: E:/BPC-DE1/Projekt/UART/UART_Tx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13920 E:\BPC-DE1\Projekt\UART\UART_Tx\UART_Tx.xpr
+# Log file: E:/BPC-DE1/Projekt/UART/UART_Tx/vivado.log
+# Journal file: E:/BPC-DE1/Projekt/UART/UART_Tx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/BPC-DE1/Projekt/UART/UART_Tx/UART_Tx.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART/UART_Tx' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'UART_Tx.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.887 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Apr 28 17:18:29 2022] Launched synth_1...
+Run output will be captured here: E:/BPC-DE1/Projekt/UART/UART_Tx/UART_Tx.runs/synth_1/runme.log
+[Thu Apr 28 17:18:29 2022] Launched impl_1...
+Run output will be captured here: E:/BPC-DE1/Projekt/UART/UART_Tx/UART_Tx.runs/impl_1/runme.log
+open_hw_manager
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Apr 28 17:22:34 2022] Launched synth_1...
+Run output will be captured here: E:/BPC-DE1/Projekt/UART/UART_Tx/UART_Tx.runs/synth_1/runme.log
+[Thu Apr 28 17:22:34 2022] Launched impl_1...
+Run output will be captured here: E:/BPC-DE1/Projekt/UART/UART_Tx/UART_Tx.runs/impl_1/runme.log
+open_hw_manager
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 28 17:37:40 2022...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 28 16:43:40 2022
+# Process ID: 24808
+# Current directory: E:/BPC-DE1/Projekt/UART/UART_Rx_2/UART_Rx_2.runs/impl_1
+# Command line: vivado.exe -log top_Rx.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_Rx.tcl -notrace
+# Log file: E:/BPC-DE1/Projekt/UART/UART_Rx_2/UART_Rx_2.runs/impl_1/top_Rx.vdi
+# Journal file: E:/BPC-DE1/Projekt/UART/UART_Rx_2/UART_Rx_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_Rx.tcl -notrace
