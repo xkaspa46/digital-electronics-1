@@ -11,8 +11,11 @@
 * [Project objectives](#objectives)
 * [Hardware description](#hardware)
 * [VHDL modules description and simulations](#modules)
-* [--> Transmitter](#transmitter)
-* [--> Reciever](#reciever)
+
+[--> Transmitter](#transmitter)
+
+[--> Reciever](#reciever)
+
 * [TOP modules description](#top)
 * [Video](#video)
 * [References](#references)
