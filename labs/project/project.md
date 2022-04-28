@@ -392,3 +392,5 @@ https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
 https://ece353.engr.wisc.edu/serial-interfaces/uart-basics/
 3. RS232 obrázek - ok1ufc
 http://ok1ufc.nagano.cz/Desktopy/RS232/RS232.htm
+4. ASCII Table - Wikimedie Commons
+https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg
