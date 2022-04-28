@@ -212,7 +212,7 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
 **Simulace**
 
-![your figure](pictures/UART_Tx_Waveform_start.png)
+![your figure](pictures/UART_Tx_Waveform.png)
 *Výstup s přepínaným Tx_start_i*
 
 ![your figure](pictures/UART_Tx_Waveform_zoom.png)
@@ -373,7 +373,7 @@ Poté kontrolujeme správný průběh celého rámce pomocí čítače nahoru do
 
 Po splnění těchto podmínek, seriová kombinace se přepíše do jednoho slova.
 
-Na konci procesu čeká na další start bit a proces se opakuje. Do té doby si pamatuje předchozí stav v případě, že by došlo k přerušení přenosu
+Na konci procesu čeká na další start bit a proces se opakuje. Do té doby si pamatuje předchozí stav v případě, že by došlo k přerušení přenosu.
 
 
 ## Test bench
