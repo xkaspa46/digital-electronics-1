@@ -546,11 +546,14 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 
 ![your figure](STOP - 4.png)
 
+*Nastavení a zapojení*
+
 ![your figure](pictures/ASCII_I_A.PNG)
+
 *Průběh simulované kombinace*
 
 ![your figure](pictures/ASCII_Table.png)
-*ASCII tabulka*
+
 
 
 ## Video
