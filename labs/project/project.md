@@ -72,12 +72,12 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 
    | **Name of entity** | **IN/OUT** | **Logika** | **Popis** |
    | :-: | :-: | :-: | :-: |
-   | clk_i       | IN    | `x"3_0d40"`    | `b"0011_0000_1101_0100_0000"`           |
-   | Tx_start_i  | IN    |`x"6_1A80"`     | `b"0110_0001_1010_1000_0000"`           |
-   | Tx_byte_i   | IN    |`x"F_4240"`     | `b"1111_0100_0010 0100_0000"`           |
-   | Tx_serial_o | OUT   |`x"17D_7840"`   | `b"0001_0111_1101_0111_1000_0100_0000"` |
-   | Tx_active_o | OUT   |`x"2FA_F080"`   | `b"0010_1111_1010_1111_0000_1000_0000"` |
-   | Tx_done_o   | OUT   | `x"5F5_E100"`  | `b"0101_1111_0101_1110_0001_0000_0000"` |
+   | `clk_i`       | IN    |`std_logic`                   | CLK signál                                                              |
+   | `Tx_start_i`  | IN    |`std_logic`                   | Enable šifrování - start/stop tlačítko pro zahájení a ukončení přenosu  |
+   | `Tx_byte_i`   | IN    |`std_logic_vector(7 downto 0)`| `b"1111_0100_0010 0100_0000"`           |
+   | `Tx_serial_o` | OUT   |`std_logic := '1'`            | `b"0001_0111_1101_0111_1000_0100_0000"` |
+   | `Tx_active_o` | OUT   |`std_logic"`                  | `b"0010_1111_1010_1111_0000_1000_0000"` |
+   | `Tx_done_o`   | OUT   | `std_logic`                  | `b"0101_1111_0101_1110_0001_0000_0000"` |
 
 **Popis kódu**
 
