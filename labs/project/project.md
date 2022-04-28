@@ -507,14 +507,14 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 
    | **Port name** | **Direction** | **Type** | **Description** |
    | :-: | :-: | :-: | :-: |
-   | `CLK100MHZ`| in    |`std_logic`                     | CLK signál                                             |
-   | `SW`       | in    |`std_logic_vector (7 downto 0)` | CLK signál                                             |                           
-   | `SW15`     | in    |`std_logic`                     | Reset tlačítko                                         |
-   | `LED`      | out   |`std_logic_vector (7 downto 0)` | 8N1 rámec - výstup z vysílače                          |
-   | `LED15`    | out   |`std_logic`                     | Dešifrování dat z sériového vstupu na 8bit infornmaci  |
-   | `JA1`      | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
-   | `LED17_R`  | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
-   | `LED16_B`  | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
+   | `CLK100MHZ`| in    |`std_logic`                     | CLK signál                                                               |
+   | `SW`       | in    |`std_logic_vector (7 downto 0)` | ENABLE přepínač přenosu                                                  |                        
+   | `SW15`     | in    |`std_logic`                     | Přepínače nastavující úrovně pro rámec                                   | 
+   | `LED`      | out   |`std_logic_vector (7 downto 0)` | LED pro ENABLE                                                           |
+   | `LED15`    | out   |`std_logic`                     | LED pro přepínače rámce                                                  |
+   | `JA1`      | out   |`std_logic`                     | Výstupní port pro připojení média (vodič)                                |
+   | `LED17_R`  | out   |`std_logic`                     | LED pro hlídání aktivního přenosu dat - ČERVENÁ                          |
+   | `LED16_B`  | out   |`std_logic`                     | LED oznamující odeslání kompletního rámce - MODRÁ (blikání s periodou 1ms|
 
 **Reciever**
 
