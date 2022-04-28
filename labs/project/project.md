@@ -223,11 +223,11 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
    | **Name of entity** | **IN/OUT** | **Logika** | **Popis proměnných** |
    | :-: | :-: | :-: | :-: |
-   | `clk_i`         | IN    |`std_logic`                     | CLK signál        |
-   | `rst_i`         | IN    |`std_logic`                     | Reset tlačítko    |
-   | `Rx_serial_i`   | IN    |`std_logic`| 8-bitová informace |    xx                                                                  |
-   | `Rx_byte_o`     | OUT   |`std_logic_vector(7 downto 0)`  | Samotný rámec obohacený o start/stop bit                                |
-   | `Rx_active_o`   | OUT   |`std_logic"`                    | Hlídání aktivního přenosu - přechází do nuly, pokud Idle_s <= 1         |
+   | `clk_i`         | IN    |`std_logic`                     | CLK signál                                             |
+   | `rst_i`         | IN    |`std_logic`                     | Reset tlačítko                                         |
+   | `Rx_serial_i`   | IN    |`std_logic`                     | 8N1 rámec - výstup z vysílače                          |
+   | `Rx_byte_o`     | OUT   |`std_logic_vector(7 downto 0)`  | Dešifrování dat z sériového vstupu na 8bit infornmaci  |
+   | `Rx_active_o`   | OUT   |`std_logic"`                    | Hlídání aktivního přenosu                              |
 
 
 **Popis kódu**
