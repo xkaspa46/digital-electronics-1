@@ -543,7 +543,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 ## Video
 
 ![Komentované video na YouTube](https://youtu.be/jZc6FwfYLt4) 🎞🎥📀
-
+https://youtu.be/jZc6FwfYLt4
 
 <a name="references"></a>
 
