@@ -3,8 +3,8 @@
 ### Team members
 
 * Tomáš Kristek (responsible for programming)
-* Tomáš Kašpar (responsible for simulations, documentation and editing)
-* Dušan Kratochvíl (responsible for top)
+* Tomáš Kašpar (responsible for simulations, documentation and videoediting)
+* Dušan Kratochvíl (responsible for top and narration)
 
 ### Table of contents
 
