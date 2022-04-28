@@ -14,6 +14,7 @@
    * [Transmitter](#transmitter)
    * [Reciever](#reciever)
 * [TOP modules description](#top)
+* [Oscilogram](#oscilogram)
 * [Video](#video)
 * [References](#references)
 
@@ -540,10 +541,21 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 
 <a name="video"></a>
 
+## Simulace vysílače
+<a name="oscilogram"></a>
+
+![your figure](STOP - 4.png)
+
+![your figure](pictures/ASCII_I_A.PNG)
+*Průběh simulované kombinace*
+
+![your figure](pictures/ASCII_Table.png)
+*ASCII tabulka*
+
+
 ## Video
 
 [Komentované video na YouTube](https://youtu.be/jZc6FwfYLt4) 🎞🎥📀
-https://youtu.be/jZc6FwfYLt4
 
 <a name="references"></a>
 
