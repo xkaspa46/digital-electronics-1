@@ -544,7 +544,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 ## Simulace vysílače
 <a name="oscilogram"></a>
 
-![your figure](STOP - 4.png)
+![your figure](zapojeni.png)
 
 *Nastavení a zapojení*
 
