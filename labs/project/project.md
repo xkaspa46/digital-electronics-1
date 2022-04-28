@@ -519,6 +519,8 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
    
 **Schematic**
 
+![your figure](pictures/TOP_TX.png)
+
 **Reciever - constraints**
 
    | **Port name** | **Direction** | **Type** | **Description** |
@@ -530,6 +532,8 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
    | `LED17_R`  | out   |`std_logic`                     | LED pro hlídání aktivního přenosu dat - ČERVENÁ                          |
 
 **Schematic**
+
+![your figure](pictures/TOP_RX.png)
 
 <a name="video"></a>
 
