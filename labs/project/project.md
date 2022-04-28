@@ -75,14 +75,18 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 -- Architecture body for UART Transmitter
 ------------------------------------------------------------
 architecture Behavioral of UART_Tx is
-    type t_Tx is (Tx_start_bit_s, Tx_stop_bit_s, Idle_s, Tx_data_s);
+
+    -- Define the states
+    type t_Tx is (Idle_s, Tx_start_bit_s, Tx_data_s, Tx_stop_bit_s, Tx_done_s);
     
-    signal s_en      : std_logic;
+    -- Local signals for Transmitter
     signal s_Tx      : t_Tx := Idle_s;
-    signal s_Tx_data : std_logic_vector (7 downto 0);
-    signal s_cnt     : unsigned(0 downto 0);
+    signal s_en      : std_logic := '0';
+    signal s_Tx_data : std_logic_vector (7 downto 0) := "00000000";
+    signal s_cnt     : unsigned(0 downto 0) := b"0";
     signal s_bit     : integer range 0 to 7 := 0;
     
+    -- Local constants for Transmitter
     constant c_ZERO  : unsigned := b"0";
     constant c_BIT   : unsigned := b"1";
     
@@ -92,7 +96,7 @@ begin
     -- Instance (copy) of clock_enable entity generates 
     clk_en : entity work.clock_enable
         generic map(
-            g_MAX => 5209
+            g_MAX => 5208
         )
         port map(
             clk   => clk_i,
@@ -107,76 +111,84 @@ Pro transmitter jsme použili námi vytvořený funkční blok **clock enable** 
 * Samotná data v rámci 8N1
 
 ```vhdl
+    -- Whole process for UART Transmitter
     p_UART_Tx: process(clk_i)
     begin
         if rising_edge(clk_i) and s_en = '1' then         
-                case s_Tx is
-                    when Idle_s =>
-                        Tx_active_o <= '0';
-                        Tx_serial_o <= '1';
-                        Tx_done_o   <= '0';
-                        s_cnt       <= c_ZERO;
-                        s_bit       <= 0;
+            case s_Tx is
+                
+                when Idle_s =>
+                    Tx_active_o <= '0';
+                    Tx_serial_o <= '1';
+                    Tx_done_o   <= '0';
+                    s_cnt       <= c_ZERO;
+                    s_bit       <= 0;
                     
-                        if Tx_start_i = '1' then
-                            s_Tx_data <= Tx_byte_i;
-                            s_Tx      <= Tx_start_bit_s;
-                        else
-                            s_Tx      <= Idle_s;
-                        end if;
+                    if Tx_start_i = '1' then
+                        s_Tx_data <= Tx_byte_i;
+                        s_Tx      <= Tx_start_bit_s;
+                    else
+                        s_Tx      <= Idle_s;
+                    end if;
             
-                    -- start bit = '0'
-                    when Tx_start_bit_s =>
-                        Tx_active_o <= '1';
-                        Tx_serial_o <= '0';
+                -- start bit = '0'
+                when Tx_start_bit_s =>
+                    Tx_active_o <= '1';
+                    Tx_serial_o <= '0';
                         
-                        if s_cnt < c_BIT then
-                            s_cnt <= s_cnt + 1;
-                            s_Tx  <= Tx_start_bit_s;
-                        else
-                            s_cnt <= c_ZERO;
-                            s_Tx  <= Tx_data_s;
-                            
-                        end if;
+                    if s_cnt < c_BIT then
+                        s_cnt <= s_cnt + 1;
+                        s_Tx  <= Tx_start_bit_s;
+                    else
+                        s_cnt <= c_ZERO;
+                        s_Tx  <= Tx_data_s;
+                    end if;
                     
-                    when Tx_data_s =>
-                        Tx_serial_o <= s_Tx_data(s_bit);
+                when Tx_data_s =>
+                    Tx_serial_o <= s_Tx_data(s_bit);
                         
-                        if s_cnt < c_BIT then
-                            s_cnt <= s_cnt + 1;
+                    if s_cnt < c_BIT then
+                        s_cnt <= s_cnt + 1;
+                        s_Tx  <= Tx_data_s;
+                    else
+                        s_cnt <= c_ZERO;
+                            
+                        if s_bit < 7 then
+                            s_bit <= s_bit + 1;
                             s_Tx  <= Tx_data_s;
                         else
-                            s_cnt <= c_ZERO;
-                            
-                            if s_bit < 7 then
-                                s_bit <= s_bit + 1;
-                                s_Tx  <= Tx_data_s;
-                            else
-                                s_bit <= 0;
-                                s_Tx  <= Tx_stop_bit_s;
-                            end if;                           
-                        end if;
-                
-                    -- stop bit = '1'
-                    when Tx_stop_bit_s =>
-                        Tx_serial_o <= '1';
-                        Tx_active_o <= '1';
-                        
-                        if s_cnt < c_BIT then
-                            s_cnt <= s_cnt + 1;
+                            s_bit <= 0;
                             s_Tx  <= Tx_stop_bit_s;
-                        else
-                            Tx_done_o <= '1';
-                            s_cnt <= c_ZERO;
-                            s_Tx  <= Idle_s;
-                        end if;
+                        end if;                           
+                    end if;
                 
-                    when others =>
-                        s_Tx <= Idle_s;   
-                end case;
-            end if;    
-    end process;
+                -- stop bit = '1'
+                when Tx_stop_bit_s =>
+                    Tx_serial_o <= '1';
+                        
+                    if s_cnt < c_BIT then
+                        s_cnt <= s_cnt + 1;
+                        s_Tx  <= Tx_stop_bit_s;
+                    else
+                        s_cnt <= c_ZERO;
+                        s_Tx  <= Tx_done_s;
+                    end if;
+                    
+                when Tx_done_s =>
+                    Tx_active_o <= '0';
+                    Tx_done_o   <= '1';
+                    s_Tx        <= Idle_s;
+                
+                when others =>
+                    s_Tx <= Idle_s;
+                           
+            end case;
+        end if;    
+    end process p_UART_Tx;
+--------------------------------------------------------
+
 end Behavioral;
+
 ```
 
 Při detekování náběžné hrany se vždy nejprve zjistí, zda uživatel zahájil přenos dat pomocí **Tx_start_i**. Jakmile pak zahájí přenos dat, nejprve se pošle start bit, 8-bit informaci a nakonec stop bit. Tato sekvence se opakuje, dokud přenos neukončí.
