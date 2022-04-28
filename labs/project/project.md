@@ -13,7 +13,7 @@
 * [VHDL modules description and simulations](#modules)
 * [VHDL modules and simulations - Transmitter](#transmitter)
 * [VHDL modules and simulations - Reciever](#reciever)
-* [TOP module description and simulations](#top)
+* [TOP modules description](#top)
 * [Video](#video)
 * [References](#references)
 
@@ -370,7 +370,7 @@ end Behavioral;
 
 <a name="top"></a>
 
-## TOP module description and simulations
+## TOP modules description
 
 Write your text here.
 
