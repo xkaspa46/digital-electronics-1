@@ -516,7 +516,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
    | `LED17_R`  | out   |`std_logic`                     | LED pro hlídání aktivního přenosu dat - ČERVENÁ                           |
    | `LED16_B`  | out   |`std_logic`                     | LED oznamující odeslání kompletního rámce - MODRÁ (blikání s periodou 1ms)|
 
-**Reciever**
+**Reciever - constraints**
 
    | **Port name** | **Direction** | **Type** | **Description** |
    | :-: | :-: | :-: | :-: |
