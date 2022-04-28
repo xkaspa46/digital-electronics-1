@@ -270,6 +270,8 @@ begin
         );
 ```
 
+Pro signály a port mapu platí analogicky to samé co pro vysílač. Na straně přijímače je třeba pouze sériový přenos znovu převézt do 8-bitového čísla.
+
 ```vhdl
 -- Data conversion from input Rx_serial to
     -- internal signal Rx_data
@@ -364,6 +366,15 @@ begin
 
 end Behavioral;
 ```
+
+Kontrolujeme, zda na vstupu Rx_serial_i je hodnota odpovídající "0" <= **start bitu**. Pokud ano, postupně se načítají hodnoty celého rámce. První hodnota odpovídá bitu s nejnižší váhou **LSB**.
+
+Poté kontrolujeme správný průběh celého rámce pomocí čítače nahoru do 8. Dále se kontroluje prezence stop bitu.
+
+Po splnění těchto podmínek, seriová kombinace se přepíše do jednoho slova.
+
+Na konci procesu čeká na další start bit a proces se opakuje. Do té doby si pamatuje předchozí stav v případě, že by došlo k přerušení přenosu
+
 
 ## Test bench
 
