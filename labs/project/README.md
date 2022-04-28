@@ -541,8 +541,8 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 <a name="video"></a>
 
 ## Video
-Odkaz na YT video níže
-![Komentované video na YouTube](https://youtu.be/jZc6FwfYLt4)
+
+![Komentované video na YouTube](https://youtu.be/jZc6FwfYLt4) 🎞🎥📀
 
 
 <a name="references"></a>
