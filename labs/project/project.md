@@ -72,7 +72,7 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
 
 **Seznam entit**
 
-   | **Name of entity** | **IN/OUT** | **Logika** | **Popis proměnných** |
+   | **Name of entity** | **Direction** | **Type** | **Popis proměnných** |
    | :-: | :-: | :-: | :-: |
    | `clk_i`       | IN    |`std_logic`                   | CLK signál                                                              |
    | `Tx_start_i`  | IN    |`std_logic`                   | Enable šifrování - start/stop tlačítko pro zahájení a ukončení přenosu  |
@@ -223,7 +223,7 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
 **Seznam entit**
 
-   | **Name of entity** | **IN/OUT** | **Logika** | **Popis proměnných** |
+   | **Name of entity** | **Direction** | **Type** | **Popis proměnných** |
    | :-: | :-: | :-: | :-: |
    | `clk_i`         | IN    |`std_logic`                     | CLK signál                                             
    | `rst_i`         | IN    |`std_logic`                     | Reset tlačítko                                         
