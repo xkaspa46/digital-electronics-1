@@ -375,6 +375,11 @@ Po splnění těchto podmínek, seriová kombinace se přepíše do jednoho slov
 
 Na konci procesu čeká na další start bit a proces se opakuje. Do té doby si pamatuje předchozí stav v případě, že by došlo k přerušení přenosu.
 
+**Simulace**
+
+![your figure](pictures/UART_Rx_Waveform.png)
+*Výstup přijímače*
+
 
 ## Test bench
 
