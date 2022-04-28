@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sources_1/new/UART_Rx.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'UART_Rx'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xkaspa46/digital-electronics-1/labs/project/UART_2020.1/UART_2020.1.srcs/sim_1/new/UART_Tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'UART_Tb'

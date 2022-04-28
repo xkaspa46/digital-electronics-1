@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../UART_2020.1.srcs/sources_1/new/clock_enable.vhd" \
-"../../../../UART_2020.1.srcs/sources_1/new/UART_Rx.vhd" \
-"../../../../UART_2020.1.srcs/sources_1/new/UART_Tx.vhd" \
-"../../../../UART_2020.1.srcs/sim_1/new/UART_Tb.vhd" \
-
-# Do not sort compile order
-nosort
