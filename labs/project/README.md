@@ -544,7 +544,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 ## Simulace vysílače
 
 
-![your figure](zapojeni.png)
+![your figure](pictures/zapojeni.png)
 
 *Nastavení a zapojení*
 
