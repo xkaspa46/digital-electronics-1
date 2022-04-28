@@ -3,8 +3,8 @@
 ### Team members
 
 * Tomáš Kristek (responsible for programming)
-* Tomáš Kašpar (responsible for documentation and editing)
-* Dušan Kratochvíl (responsible for Capri-Sun)
+* Tomáš Kašpar (responsible for simulations, documentation and editing)
+* Dušan Kratochvíl (responsible for top)
 
 ### Table of contents
 
