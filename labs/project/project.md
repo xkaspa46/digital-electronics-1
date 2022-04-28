@@ -225,8 +225,8 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 
    | **Name of entity** | **IN/OUT** | **Logika** | **Popis proměnných** |
    | :-: | :-: | :-: | :-: |
-   | `clk_i`         | IN    |`std_logic`                     | CLK signál                                             |
-   | `rst_i`         | IN    |`std_logic`                     | Reset tlačítko                                         |
+   | `clk_i`         | IN    |`std_logic`                     | CLK signál                                             
+   | `rst_i`         | IN    |`std_logic`                     | Reset tlačítko                                         
    | `Rx_serial_i`   | IN    |`std_logic`                     | 8N1 rámec - výstup z vysílače                          |
    | `Rx_byte_o`     | OUT   |`std_logic_vector(7 downto 0)`  | Dešifrování dat z sériového vstupu na 8bit infornmaci  |
    | `Rx_active_o`   | OUT   |`std_logic`                     | Hlídání aktivního přenosu                              |
@@ -502,6 +502,23 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 <a name="top"></a>
 
 ## TOP modules description
+
+**Transmitter - constraints**
+
+   | **Port name** | **Direction** | **Type** | **Description** |
+   | :-: | :-: | :-: | :-: |
+   | `CLK100MHZ`| in    |`std_logic`                     | CLK signál                                             |
+   | `SW`       | in    |`std_logic_vector (7 downto 0)` | CLK signál                                             |                           
+   | `SW15`     | in    |`std_logic`                     | Reset tlačítko                                         |
+   | `LED`      | out   |`std_logic_vector (7 downto 0)` | 8N1 rámec - výstup z vysílače                          |
+   | `LED15`    | out   |`std_logic`                     | Dešifrování dat z sériového vstupu na 8bit infornmaci  |
+   | `JA1`      | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
+   | `LED17_R`  | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
+   | `LED16_B`  | out   |`std_logic`                     | Hlídání aktivního přenosu                              |
+
+**Reciever**
+
+
 
 Write your text here.
 
