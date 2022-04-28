@@ -493,6 +493,11 @@ begin
 end architecture testbench;
 ```
 
+Simulace bloků TX a RX současně
+
+Sériová data generovaná vysílačem jsou hned v testbench převáděná zpět na sériový vstup přijímače a převáděna zpět (viz. simulace). Z tohoto důvodu se signál pro sériová data jmenuje **s_Tx_Rx_serial**.
+
+Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset tlačítko přijímače a generování odesílaných dat.
 
 <a name="top"></a>
 
