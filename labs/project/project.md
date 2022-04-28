@@ -213,7 +213,7 @@ Program je koncipován tak, že pokud Tx_start_i přepne v průběhu odesílán�
 **Simulace**
 
 ![your figure](pictures/UART_Tx_Waveform.png)
-*Výstup s přepínaným Tx_start_i*
+*Funkce vysílače - Výstup s přepínaným Tx_start_i*
 
 ![your figure](pictures/UART_Tx_Waveform_zoom.png)
 *Zoom na průběh jednoho rámce*
@@ -378,7 +378,7 @@ Na konci procesu čeká na další start bit a proces se opakuje. Do té doby si
 **Simulace**
 
 ![your figure](pictures/UART_Rx_Waveform.png)
-*Výstup přijímače*
+*Funkce přijímače*
 
 
 ## Test bench
