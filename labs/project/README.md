@@ -535,6 +535,9 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 
 ![your figure](pictures/TOP_RX.png)
 
+![your figure](pictures/Boards-connected.jpg)
+*Obě implementace ve společné funkci*
+
 <a name="video"></a>
 
 ## Video
