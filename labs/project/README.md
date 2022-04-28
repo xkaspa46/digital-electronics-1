@@ -539,10 +539,10 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 ![your figure](pictures/Boards-connected.jpg)
 *Obě implementace ve společné funkci*
 
-<a name="video"></a>
+<a name="oscilogram"></a>
 
 ## Simulace vysílače
-<a name="oscilogram"></a>
+
 
 ![your figure](zapojeni.png)
 
@@ -554,7 +554,7 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 
 ![your figure](pictures/ASCII_Table.png)
 
-
+<a name="video"></a>
 
 ## Video
 
