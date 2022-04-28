@@ -77,7 +77,7 @@ X-bitová informace je vždy zapouzdřena v sériové sekvenci bitů se startova
    | `clk_i`       | IN    |`std_logic`                   | CLK signál                                                              |
    | `Tx_start_i`  | IN    |`std_logic`                   | Enable šifrování - start/stop tlačítko pro zahájení a ukončení přenosu  |
    | `Tx_byte_i`   | IN    |`std_logic_vector(7 downto 0)`| 8-bitová informace                                                      |
-   | `Tx_serial_o` | OUT   |`std_logic := '1'`            | Samotný rámec obohacený o start/stop bit                                |
+   | `Tx_serial_o` | OUT   |`std_logic := '1'`            | Samotný rámec obohacený o start/stop bit  - napevno nastavena do "1", kvůli zahájení komunikace nulou  |
    | `Tx_active_o` | OUT   |`std_logic`                   | Hlídání aktivního přenosu - přechází do nuly, pokud Idle_s <= 1         |
    | `Tx_done_o`   | OUT   | `std_logic`                  | Posílá zprávu o úspěšném přenosu celého rámce, zároveň s stop bitem     |
 
