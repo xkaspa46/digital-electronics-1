@@ -541,8 +541,8 @@ Zbytek kódu popisuje pouze přepínání spínače pro odesílání dat, reset 
 <a name="video"></a>
 
 ## Video
-
-![your figure](pictures/Video_UART_ProjektDE1.mp4)
+Odkaz na YT video níže
+![Komentované video na YouTube](https://youtu.be/jZc6FwfYLt4)
 
 
 <a name="references"></a>
